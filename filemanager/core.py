@@ -9,7 +9,7 @@ from .exceptions import *
 class FileManager:
     def __init__(self, workspace: str):
         self.workspace = Path(workspace).resolve()
-        self.current_dir = Path('.')
+        self.current_dir = Path('')
 
         if not self.workspace.exists():
             raise FileNotFoundError(f"Рабочая директория {self.workspace} не существует")
