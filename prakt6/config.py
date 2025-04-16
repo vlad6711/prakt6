@@ -1,0 +1,1 @@
+directory = "C:/Users/Владислав/PycharmProjects/unik/сем4/prakt6/"
